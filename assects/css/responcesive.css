@@ -1,0 +1,303 @@
+@media screen and (max-width: 1028px){
+    .carousel-caption {
+        height: 80%;
+    }
+}
+/* for tab */
+@media screen and (max-width: 768px){
+    
+    .carousel-caption{
+        height: 80%;
+    }
+
+    .carousel-caption h1{
+        font-family: 'Poppins'!important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        /* or 131% */
+        padding: .3rem 4rem;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .carousel-caption p{
+        font-family: 'Poppins'!important;
+        font-style: normal;
+        font-weight: 400;
+        width: 100%;
+        font-size: 15px !important;
+        line-height: 30px;
+        /* or 167% */
+        color: #F4F4F4;
+        text-align: center;
+        padding: 1rem 1rem;
+
+    }
+
+    .bannar-btn{
+        font-family: 'Poppins'!important;
+        font-weight: 600;
+        border-radius: .2rem !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        /* identical to box height */
+        width: 142px !important;
+        height: 46px !important;
+
+        text-align: center;
+
+        color: #140808;
+    }
+
+    /* main */
+    .title h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        /* identical to box height */
+
+
+        /* Dark 01 */
+
+        color: #1D1D1D;
+    
+    }
+    
+    .title article{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 188% */
+        
+        
+        /* Dark 03 */
+        
+        color: #777777;
+        
+    }
+    
+    /* courses */
+
+    .sec-tlt h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        /* Dark 01 */
+        
+        color: #1D1D1D;
+    }
+
+    .sec-tlt article{
+        width: 100% !important;
+    }
+
+    /* about-us */
+    .about-us{
+    }
+    .about-us img{
+        height: 100%;
+    }
+    .about-us .post {
+        padding: 2rem;
+    }
+
+    .about-us .post-tlt h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        color: #1D1D1D;
+    }
+    .about-us .post-info{
+        font-size: 12px;
+    }
+
+    .about-us .our-service{
+        flex-wrap: wrap !important;
+    }
+
+    .counting-box .count-number {
+        font-family: 'Poppins' !important;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #1D1D1D;
+    }
+
+    .count-name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #777777;
+    }
+
+    .our-service .counting-box {
+        padding: .5rem;
+        margin: .4rem 0;
+    }
+
+    /* register */
+
+    .register{
+        text-align: center;
+    }
+
+    .register .btn{
+        text-align: center !important;
+    }
+
+    /*  */
+    .our-students .title {
+        width: 75%;
+    }
+
+
+    /* stdnt-feedback */
+
+    .stdnt-feedback .title{
+        width: 80% !important;
+    }
+
+    .stdnt-feedback .feedback {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .stdnt-feedback .carousel-control-prev,.stdnt-feedback .carousel-control-next{
+        display: none !important;
+
+    }
+
+    .feedback > div {
+        padding: 1rem;
+    }
+
+
+    /* questions  */
+
+    .questions .title{
+        width: 76% !important;
+    }
+
+    .questions .content {
+        width: 90% !important;
+    }
+
+    /* patran */
+    .patran{
+        display: none;
+    }
+}
+/* for mobile */
+@media screen and (max-width: 566px){
+    .carousel-caption h1 {
+        font-family: 'Poppins'!important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0.3rem 1rem;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .carousel-caption p {
+        font-family: 'Poppins'!important;
+        font-style: normal;
+        font-weight: 400;
+        width: 100%;
+        font-size: 10px !important;
+        line-height: 20px;
+        color: #F4F4F4;
+        text-align: center;
+        padding: .3rem;
+    }
+
+
+    .our-students{
+        text-align: center !important;
+    }
+
+    .our-students .title {
+        width: 100%;
+    }
+
+    .questions .title {
+        width: 100% !important;
+    }
+
+    footer .title{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 440px){
+    .carousel-caption {
+        height: 95%;
+    }
+
+    .bannar-btn {
+        font-family: 'Poppins'!important;
+        font-weight: 600;
+        border-radius: 0.2rem !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        width: 122px !important;
+        height: 36px !important;
+        text-align: center;
+        color: #140808;
+    }
+
+    /*  */
+    .register {
+        padding: 2rem 1rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .carousel-caption{
+        height: 90%;
+    }
+    .carousel-caption h1 {
+        font-family: 'Poppins'!important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0.3rem 1rem;
+        text-align: center;
+        color: #FFFFFF;
+
+        
+    }
+
+    .carousel-caption p{
+        font-size: 12px !important;
+        width: 100%;
+
+    }
+
+    header .carousel-item img{
+        height: 250px;
+    }
+
+    .carousel-control-prev,.carousel-control-next{
+        display: none !important;
+
+    }
+}

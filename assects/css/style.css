@@ -1,0 +1,289 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: 0 auto;
+}
+
+:root{
+    --primary-btn: #289BDE;
+}
+
+main > div{
+    margin: 4rem 0 !important;
+
+}
+
+header{
+    padding: 2rem 0;
+}
+.navbar{
+    padding: 0 0 1rem 0 !important;
+}
+
+header .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 0;
+}
+
+
+header .nav-item{
+    padding: .5rem 1rem;
+}
+header .nav-link{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.nav-btn{
+    text-align: center;
+}
+
+
+.carousel-item img{
+    height: 100%;
+}
+
+.carousel-caption{
+    height: 75%;
+}
+
+.carousel-caption h1{
+    font-family: 'Poppins'!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 85px;
+    /* or 131% */
+    padding: 1rem 4rem;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.carousel-caption p{
+    font-family: 'Poppins'!important;
+    font-style: normal;
+    font-weight: 400;
+    width: 70%;
+    font-size: 15px !important;
+    line-height: 30px;
+    /* or 167% */
+    color: #F4F4F4;
+    text-align: center;
+    padding: 1rem 2rem;
+
+}
+
+.bannar-btn{
+    font-family: 'Poppins'!important;
+    font-weight: 600;
+    border-radius: .2rem !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    /* identical to box height */
+    width: 182px !important;
+    height: 56px !important;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* courses */
+.course-tlt h5{
+    font-size: 18px;    line-height: 35px;
+
+}
+
+.course-info p{
+    font-size: 14px;
+}
+
+/* about-us */
+.about-us .post{
+    padding: 6rem 3rem;
+}
+.about-us .post-tlt h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    /* or 133% */
+    
+    
+    /* Dark 01 */
+    
+    color: #1D1D1D;
+}
+.our-service .counting-box {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.counting-box .count-number {
+    font-family: 'Poppins' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    /* identical to box height, or 133% */
+    color: #1D1D1D;
+
+}
+
+.count-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    /* Dark 03 */
+    
+    color: #777777;
+}
+
+/* register */
+
+.register{
+    padding: 2rem 4rem;
+}
+
+.register button{
+    color: #289BDE;
+    background-color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.register .btn button:hover{
+    background: #fff !important;
+    color: #289BDE;
+}
+
+/* our-students */
+
+.our-students .title{
+    width: 45%;
+
+}
+.title h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 133% */
+
+    color: #1D1D1D;
+
+}
+
+.title article{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    padding: 0 4px;
+
+    /* Dark 03 */
+
+    color: #777777;
+}
+
+.our-students .stdnt-dlts .name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    /* Dark 02 */
+
+    color: #4A4A4A;
+
+}
+.our-students .stdnt-dlts .designetion{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    /* identical to box height */
+
+
+    /* Dark 03 */
+
+    color: #777777;
+}
+
+.our-students .btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* feedbacks */
+
+.stdnt-feedback .feedback{
+    width: 45%;
+}
+
+.feedback .fa-star{
+    color: #FBBF24;
+}
+
+.feedback > div{
+    padding: 1rem 4rem;
+}
+
+/*  */
+
+.accordion-header button{
+    font-family: 'Poppins' !important;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+/* Dark 02 */
+
+color: #4A4A4A;
+
+}
+
+/* patran */
+
+.patran img{
+    padding: 1rem 2rem;
+    width: 170px;
+}
+
+/* footer */
+footer{
+    padding: 4rem 0;
+}
+footer .title h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;}
